@@ -19,14 +19,14 @@ const Produto = sequelize.define("produto", {
             len: [3, 100]
         }
     },
-    Descrição: {
+    Descricao: {
         allowNull: false,
         type: Sequelize.STRING(100),
         validate: {
             len: [3, 100]
         }
     },
-    Preço: {
+    Preco: {
         allowNull: false,
         type: Sequelize.DOUBLE(),
         validate: {
